@@ -1,0 +1,148 @@
+---
+title: "R data structures assignment"
+author: "dekut r community"
+date: "2024-02-13"
+output: html_document
+---
+
+# Attempt all questions and DO NOT use ChatGPT Or Bard but rather try doing if stuck reference cheat sheets from posit blog, R for data science book and ask your peers. 
+
+vectors:
+
+Create a vector containing elements 10, 22, 27, 19, 20 and assign it with a name.
+```{r}
+# your code here
+
+```
+
+Use R as a calculator to compute the following values.
+a). 27(38-15)
+b). ln(14^7)
+c). sqrt(436/12)
+
+```{r}
+# your code here
+
+
+```
+
+i) Create the following vectors: b = (87, 86, 85, …, 56)
+ii) What is the 19th, 20th, and 21st elements of b?
+```{r}
+# your code here
+
+
+```
+
+compute the following statistics of b:
+1) sum
+2) median
+3) standard deviation
+```{r}
+# your code here
+
+
+```
+
+Create a vector that contains 100 elements with value of 1. (Hint: use ?rep for help). Use the option results = ’hide” in the code chuck to hide the result
+
+```{r}
+# your code here
+
+```
+# Matrices:
+
+Create a matrix with 16 elements with 4 rows both by row and column wise store it as Ex1 and Ex2
+
+i) Access 3rd row 3rd column element of the matrices
+
+ii) Access 2nd row 1st column element of them
+```{r}
+# your code here
+
+```
+
+Imagine you have data on temperature readings for different cities In Africa for 3 months. How would you create a matrix in R to store this data, with cities as rows and months as columns?
+
+```{r}
+# your code here
+
+
+```
+
+You need to calculate the average temperature for each city over the 3 months. How would you access and manipulate specific elements of the matrix in R to achieve this? Write the code for both row and column-wise calculations
+
+```{r}
+# your code here
+
+
+```
+
+# Data Frames
+
+Suppose you have information about different employees, including their name, department, age, and salary. How would you create a data frame in R to store this data? Include different data types for each variable.
+```{r}
+# your code here
+
+```
+
+You want to filter the data frame to find employees in the "Marketing" department with a salary above Ksh50,000. Write the code using appropriate indexing and logical operators.
+
+```{r}
+# your code here
+
+```
+
+# Lists:
+
+Create a list that stores different types of data: a numeric vector, a character string, and another list.
+
+```{r}
+# your code here
+```
+
+You want to add a new element (a logical value) to the end of the list. How would you achieve this? Include different methods.
+
+```{r}
+# your code here
+
+
+```
+
+# Factors:
+
+Imagine you have survey data where participants chose their favorite R packages from a set of options. How would you create a factor variable in R to store this data?
+
+```{r}
+# your code here
+
+```
+
+You want to analyze the number of people who chose each color. How would you use the table function and factor levels to get a frequency table? Write the code and interpret the results.
+
+```{r}
+# your code here
+
+```
+
+
+# Bonus
+Describe the difference between is.finite(x) and !is.infinite(x).
+
+```{r}
+# your answer here
+
+#..
+```
+
+# Install swirl package by running install.packages("swirl") and do the the R Programming: The basics in programming in R course writing your code in a markdown file, publish it on your RPubs account and push it to your GitHub under a repository name dekut_r_sessions.
+
+
+
+
+
+
+
+
+
+
